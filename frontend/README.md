@@ -1,4 +1,6 @@
 Nivi/
+
+            fastapi + py
 │
 ├── frontend/               # واجهة المستخدم (Next.js + Tailwind + TypeScript)
 │   ├── src/                
