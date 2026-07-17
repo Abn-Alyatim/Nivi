@@ -289,7 +289,7 @@ MIT — free to use, modify, and share. See `LICENSE` for details.
 <div align="center">
   <p>Built with obsession by <strong>ArkonHQ</strong></p>
   <p>
-    <a href="mailto:arkonhq.dev@gmail.com">
+    <a href="mailto:balghbry88@gmail.com">
       <img src="https://img.shields.io/badge/Contact-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
   </p>
