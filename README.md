@@ -1,4 +1,4 @@
-```md
+
 <div align="center">
   <h1>
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="35" />
@@ -40,42 +40,42 @@ All of this happens through a **real‑time, event‑driven architecture** and a
 
 ```mermaid
 graph TD
-    UI[Frontend - Next.js + TS + Tailwind] 
-    Router[Brain Router]
-    ToolRegistry[Tool Registry]
-    EventBus[Event Bus / Pub-Sub]
+    UI["Frontend - Next.js + TS + Tailwind"]
+    Router["Brain Router"]
+    ToolRegistry["Tool Registry"]
+    EventBus["Event Bus / Pub-Sub"]
     
-    subgraph Core Modules
-        AI[AI Engine - Ollama/LLM]
-        Voice[Voice Module]
-        Social[Social Module]
+    subgraph Core["Core Modules"]
+        AI["AI Engine - Ollama/LLM"]
+        Voice["Voice Module"]
+        Social["Social Module"]
     end
     
-    subgraph Devices & Tools
-        Linux[Linux System]
-        Browser[Browser Automation]
-        Files[File Manager]
-        Screenshot[Screenshot Capture]
-        Terminal[Terminal Executor]
+    subgraph Tools["Devices & Tools"]
+        Linux["Linux System"]
+        Browser["Browser Automation"]
+        Files["File Manager"]
+        Screenshot["Screenshot Capture"]
+        Terminal["Terminal Executor"]
     end
     
-    subgraph Persistence
-        STM[Short-Term Memory]
-        LTM[Long-Term Memory - SQLite]
-        Cache[Cache]
+    subgraph Persistence["Persistence"]
+        STM["Short-Term Memory"]
+        LTM["Long-Term Memory - SQLite"]
+        Cache["Cache"]
     end
     
-    subgraph Plugins
-        PluginLoader[Plugin Loader]
-        ExternalPlugins[Installed Plugins]
+    subgraph Plugins["Plugins"]
+        PluginLoader["Plugin Loader"]
+        ExternalPlugins["Installed Plugins"]
     end
     
-    UI <--> |WebSocket Real-time| Router
+    UI <--> |"WebSocket Real-time"| Router
     Router --> ToolRegistry
     Router --> AI
     Router --> EventBus
-    EventBus --> Core Modules
-    EventBus --> Devices & Tools
+    EventBus --> Core
+    EventBus --> Tools
     EventBus --> Plugins
     Router --> Persistence
     PluginLoader --> ExternalPlugins
@@ -167,87 +167,6 @@ The entire system is **event‑driven** — the frontend subscribes to exactly t
 ## 📁 Project Structure (Visualized)
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Nivi/
 ├── main.py                 # Orchestrator
 ├── router.py               # Brain Router
@@ -359,16 +278,10 @@ npm run format    # Biome formatting
 - [ ] Desktop app via Tauri  
 - [ ] Collaboration (multiple Nivi instances sharing context)
 
----
 
-## 📜 License
-
-MIT — free to use, modify, and share. See `LICENSE` for details.
-
----
 
 <div align="center">
-  <p>Built with obsession by <strong>ArkonHQ</strong></p>
+  <p>Built with obsession by <strong>Abn-Alyatim & balghbry</strong></p>
   <p>
     <a href="mailto:balghbry88@gmail.com">
       <img src="https://img.shields.io/badge/Contact-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
