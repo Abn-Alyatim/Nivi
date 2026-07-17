@@ -297,9 +297,9 @@ npm run format    # Biome formatting
 
 
 <div align="center">
-  <p>Built with obsession by <strong>Abn-Alyatim & balghbry</strong></p>
+  <p>Built with obsession by <strong>Abn-Alyatim</strong></p>
   <p>
-    <a href="mailto:balghbry88@gmail.com">
+    <a href="mailto:alyateemmadin@gmail.com">
       <img src="https://img.shields.io/badge/Contact-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
   </p>
